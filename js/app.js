@@ -39,7 +39,7 @@ function customDOM() {
     resultDiv.appendChild(div)
   }
 }
-  function orgURL(recipeID) {
+function orgURL(recipeID) {
   console.log(recipeID);
   let url =
     "https://api.spoonacular.com/recipes/" +
