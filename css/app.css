@@ -73,6 +73,69 @@ font-family: fantasy;
 }
 
 @media screen and (max-width: 39.9375em) {
+
+    background: lightskyblue;
+    padding: 1rem 1.5rem;
+    font-size: 35px;
+  }
+  
+  .topbar-responsive .topbar-responsive-logo {
+    color: #fefefe;
+    vertical-align: middle;
+    font-family: fantasy;
+    font-size: 35px;
+  }
+  
+  .topbar-responsive .menu {
+    background-color: lightskyblue;
+  
+  }
+
+  .txtSearch {
+    background-color: orange;
+    border-width: 5px;
+    border-color: lightskyblue;
+    font-size: 22px;
+  }
+  .btn {
+  border: 6px solid orange ;
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  padding: 14px 28px;
+  font-size: 22px;
+  cursor: pointer;
+  font-family: fantasy;
+  }
+
+  .topbar-responsive .menu li:last-of-type {
+    margin-right: 0;
+  }
+  
+  .topbar-responsive .menu a {
+  color: #fefefe;
+  transition: color 0.15s ease-in;
+  border: 6px solid orange ;
+  background-color: orange;
+  color: white;
+  border-radius: 5px;
+  padding: 14px 28px;
+  font-size: 22px;
+  cursor: pointer;
+  font-family: fantasy;
+  }
+  
+  .topbar-responsive .menu a:hover {
+    color: lightskyblue;
+  }
+  
+  @media screen and (max-width: 39.9375em) {
+    .topbar-responsive .menu a {
+      padding: 0.875rem 0;
+    }
+  }
+  
+
   .topbar-responsive .menu .topbar-responsive-button {
     width: 100%;
     margin: 0.875rem 0;
