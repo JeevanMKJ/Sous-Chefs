@@ -33,6 +33,14 @@ function customDOM() {
   for (let i = 0; i < allData.length; i++) {
     let img = document.createElement("img");
     let div = document.createElement("div");
+
+	div.innerHTML += '<img class="img-fluid" src="'+allData[i].image+'">';
+    div.innerHTML +='<h4> <a href="javascript:void(0);" onclick="orgURL('+ allData[i].id+');">' + allData[i].title + ' </h4> </a>';
+        
+    resultDiv.appendChild(div)
+    }
+
+
     div.innerHTML += '<img class="img-fluid" src="' + allData[i].image + '">';
     div.innerHTML +=
       '<h4> <a href="javascript:void(0);" onclick="orgURL(' +
@@ -43,6 +51,7 @@ function customDOM() {
 
     resultDiv.appendChild(div);
   }
+
 }
 function orgURL(recipeID) {
   console.log(recipeID);
