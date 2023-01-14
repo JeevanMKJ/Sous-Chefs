@@ -51,8 +51,6 @@ function customDOM() {
 
     resultDiv.appendChild(div);
   }
-
-}
 function orgURL(recipeID) {
   console.log(recipeID);
   let url =
