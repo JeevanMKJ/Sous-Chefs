@@ -72,13 +72,6 @@ font-family: fantasy;
   border-color: #c6d1d8;
 }
 
-@media screen and (max-width: 39.9375em) {
-
-    background: lightskyblue;
-    padding: 1rem 1.5rem;
-    font-size: 35px;
-  }
-  
   .topbar-responsive .topbar-responsive-logo {
     color: #fefefe;
     vertical-align: middle;
@@ -140,7 +133,6 @@ font-family: fantasy;
     width: 100%;
     margin: 0.875rem 0;
   }
-}
 
 @media screen and (max-width: 39.9375em) {
   .topbar-responsive {
