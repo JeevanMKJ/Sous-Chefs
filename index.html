@@ -1,61 +1,56 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sous Chef</title>
-    <link rel="stylesheet" href="css/foundation.css" />
-    <link rel="stylesheet" href="css/app.css" />
-  </head>
-  <body>
-    <nav class="top-bar topbar-responsive">
-      <div class="top-bar-title">
-        <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
-          <button class="menu-icon" type="button" data-toggle></button>
-        </span>
-        <a class="topbar-responsive-logo" href="#"
-          ><strong>Sous Chef</strong></a
-        >
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sous Chef</title>
+  <link rel="stylesheet" href="css/foundation.css" />
+  <link rel="stylesheet" href="css/app.css" />
+</head>
+
+<body>
+  <nav class="top-bar topbar-responsive">
+    <div class="top-bar-title">
+      <span data-responsive-toggle="topbar-responsive" data-hide-for="medium">
+        <button class="menu-icon" type="button" data-toggle></button>
+      </span>
+      <a class="topbar-responsive-logo" href="#"><strong>Sous Chef</strong></a>
+    </div>
+
+    <div id="topbar-responsive" class="topbar-responsive-links">
+      <div class="top-bar-right">
+        <ul class="menu simple vertical medium-horizontal">
+          <li><a href="#youtube-card">YouTube</a></li>
+          <li><a href="#recipe-card">Recipes</a></li>
+        </ul>
       </div>
+    </div>
+  </nav>
 
-      <div id="topbar-responsive" class="topbar-responsive-links">
-        <div class="top-bar-right">
-          <ul class="menu simple vertical medium-horizontal">
-            <li><a href="#youtube-card">YouTube</a></li>
-            <li><a href="#recipe-card">Recipes</a></li>
-          </ul>
-        </div>
+  <br />
+
+  <div class="row">
+    <div class="card" style="display: inline-block">
+      <!-- <img src="card1-image.jpg" alt="Card 1" /> -->
+      <div class="card-search">
+        <h4>Search Bar</h4>
+        <form id="form">
+          <div class="form-group">
+            <input type="text" class="form-control" id="search" />
+          </div>
+          <div class="form-group">
+            <input type="submit" class="btn" value="Search" onclick="findRecipe()" />
+          </div>
+        </form>
+
       </div>
-    </nav>
+    </div>
+    <div class="card" style="display: inline-block">
 
-    <br />
 
-    <div class="row">
-      <div class="card" style="display: inline-block">
-        <!-- <img src="card1-image.jpg" alt="Card 1" /> -->
-        <div class="card-search">
-          <h4>Search Bar</h4>
-          <form id="form">
-            <div class="form-group">
-              <input type="text" class="form-control" id="search" />
-            </div>
-            <div class="form-group">
-              <input
-                type="submit"
-                class="btn"
-                value="Search"
-                onclick="findRecipe()"
-              />
-            </div>
-          </form>
-          
-        </div>
-      </div>
-      <div class="card" style="display: inline-block">
-
-       
-        <div class="card-section">
+      <div class="card-section">
 
         <!-- <img src="card2-image.jpg" alt="Card 2" /> -->
         <div class="card-search-results">
@@ -67,7 +62,7 @@
     </div>
     <br />
 
-      <div class="row">
+    <div class="row">
       <div id="youtube-card" class="youtube-card">
         <div class="card-section">
           <h4>YouTube Recipes</h4>
@@ -85,23 +80,24 @@
       </div>
     </div>
 
-  </nav>
-  
-  <div class="container-fluid">
-     <div class="row"id="results-div">
+    </nav>
 
-    <div>
-      <ul id="search-history"></ul>
-    </div>
+    <div class="container-fluid">
+      <div class="row" id="results-div">
 
-    <div class="row">
-    </div>
+        <div>
+          <ul id="search-history"></ul>
+        </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="js/vendor/jquery.js"></script>
-    <script src="js/vendor/what-input.js"></script>
-    <script src="js/vendor/foundation.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/script.js"></script>
-  </body>
+        <div class="row">
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="js/vendor/jquery.js"></script>
+        <script src="js/vendor/what-input.js"></script>
+        <script src="js/vendor/foundation.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/script.js"></script>
+</body>
+
 </html>
