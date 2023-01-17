@@ -18,12 +18,12 @@
   background-color: lightskyblue;
 }
 .card-search {
-  border: 15px solid orange;
+  border: 10px solid orange;
   background-color: lightskyblue;
   color: white;
   border-radius: 5px;
   padding: 14px;
-  font-size: 22px;
+  font-size: 15px;
   cursor: pointer;
   margin-bottom: 30px;
 }
@@ -45,33 +45,36 @@
   font-family: fantasy;
 }
 .youtube-card {
-  width: 40%;
-  border: 15px solid orange;
+  width: 48%;
+  border: 10px solid orange;
   background-color: lightskyblue;
   color: white;
   border-radius: 5px;
   padding: 14px;
   font-size: 22px;
   cursor: pointer;
-  margin-left: 5%;
+  float:left
+ 
 }
 .recipe-card {
-  width: 40%;
-  border: 15px solid orange;
+  width: 48%;
+  border: 10px solid orange;
   background-color: lightskyblue;
   color: white;
   border-radius: 5px;
   padding: 14px;
   font-size: 22px;
   cursor: pointer;
-  margin-right: 5%;
+  float: right;
 }
 h4 {
   font-size: 35px;
   color: black;
   font-weight: bolder;
 }
-
+.main-logo {
+  float: right;
+}
 #search-history {
   list-style: none;
 }
