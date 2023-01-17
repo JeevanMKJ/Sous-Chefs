@@ -11,12 +11,14 @@
   color: #fefefe;
   vertical-align: middle;
   font-family: fantasy;
-  font-size: 35px;
+  font-size: 55px;
   font-weight: bolder;
 }
+
 .topbar-responsive .menu {
   background-color: lightskyblue;
 }
+
 .card-search {
   border: 10px solid orange;
   background-color: lightskyblue;
@@ -26,13 +28,27 @@
   font-size: 15px;
   cursor: pointer;
   margin-bottom: 30px;
+
 }
+
+.card-search-results {
+  border: 10px solid orange;
+  background-color: lightskyblue;
+  color: white;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
 .txtSearch {
   background-color: orange;
   border-width: 5px;
   border-color: lightskyblue;
   font-size: 22px;
 }
+
 .btn {
   border: 6px solid orange;
   background-color: orange;
@@ -44,6 +60,7 @@
   cursor: pointer;
   font-family: fantasy;
 }
+
 .youtube-card {
   width: 48%;
   border: 10px solid orange;
@@ -53,9 +70,9 @@
   padding: 14px;
   font-size: 22px;
   cursor: pointer;
-  float:left
- 
+  float: left
 }
+
 .recipe-card {
   width: 48%;
   border: 10px solid orange;
@@ -67,17 +84,18 @@
   cursor: pointer;
   float: right;
 }
+
 h4 {
   font-size: 35px;
   color: black;
   font-weight: bolder;
 }
-.main-logo {
-  float: right;
-}
+
 #search-history {
   list-style: none;
+
 }
+
 .topbar-responsive .menu li:last-of-type {
   margin-right: 0;
 }
@@ -139,6 +157,7 @@ h4 {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -148,6 +167,7 @@ h4 {
   from {
     opacity: 0;
   }
+
   to {
     opacity: 1;
   }
@@ -158,6 +178,7 @@ h4 {
     -webkit-transform: translateY(-100%);
     transform: translateY(-100%);
   }
+
   100% {
     -webkit-transform: translateY(0%);
     transform: translateY(0%);
@@ -169,6 +190,7 @@ h4 {
     -webkit-transform: translateY(-100%);
     transform: translateY(-100%);
   }
+
   100% {
     -webkit-transform: translateY(0%);
     transform: translateY(0%);
