@@ -2,6 +2,8 @@
   background: lightskyblue;
   padding: 1rem 1.5rem;
   font-size: 35px;
+  border-bottom: 15px;
+  border-color: orange;
 }
 
 .topbar-responsive .topbar-responsive-logo {
@@ -31,7 +33,34 @@
   cursor: pointer;
   font-family: fantasy;
 }
+.youtube-card {
+  border: 15px solid orange;
+  background-color: lightskyblue;
+  color: white;
+  border-radius: 5px;
+  padding: 14px;
+  font-size: 22px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+.recipe-card {
+  border: 15px solid orange;
+  background-color: lightskyblue;
+  color: white;
+  border-radius: 5px;
+  padding: 14px;
+  font-size: 22px;
+  cursor: pointer;
+}
+h4 {
+  font-size: 35px;
+  color: black;
+  font-weight: bolder;
+}
 
+#search-history {
+  list-style: none;
+}
 .topbar-responsive .menu li:last-of-type {
   margin-right: 0;
 }
