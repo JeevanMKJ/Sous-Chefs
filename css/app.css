@@ -11,7 +11,7 @@
   color: #fefefe;
   vertical-align: middle;
   font-family: fantasy;
-  font-size: 35px;
+  font-size: 55px;
   font-weight: bolder;
 }
 .topbar-responsive .menu {
@@ -26,7 +26,19 @@
   font-size: 15px;
   cursor: pointer;
   margin-bottom: 30px;
+  
 }
+.card-search-results {
+  border: 10px solid orange;
+  background-color: lightskyblue;
+  color: white;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 15px;
+  cursor: pointer;
+  margin-bottom: 30px;
+}
+
 .txtSearch {
   background-color: orange;
   border-width: 5px;
@@ -72,11 +84,10 @@ h4 {
   color: black;
   font-weight: bolder;
 }
-.main-logo {
-  float: right;
-}
+
 #search-history {
   list-style: none;
+
 }
 .topbar-responsive .menu li:last-of-type {
   margin-right: 0;
