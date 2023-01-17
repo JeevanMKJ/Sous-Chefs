@@ -34,6 +34,7 @@
   font-family: fantasy;
 }
 .youtube-card {
+  width: 40%;
   border: 15px solid orange;
   background-color: lightskyblue;
   color: white;
@@ -41,9 +42,10 @@
   padding: 14px;
   font-size: 22px;
   cursor: pointer;
-  margin-bottom: 30px;
+  margin-left: 5%;
 }
 .recipe-card {
+  width: 40%;
   border: 15px solid orange;
   background-color: lightskyblue;
   color: white;
@@ -51,6 +53,7 @@
   padding: 14px;
   font-size: 22px;
   cursor: pointer;
+  margin-right: 5%;
 }
 h4 {
   font-size: 35px;
@@ -88,6 +91,24 @@ h4 {
   }
 }
 
+.card-section {
+  width: 100%;
+}
+
+#videos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#results-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
 .topbar-responsive .menu .topbar-responsive-button {
   color: #fefefe;
   border-color: #fefefe;
@@ -99,8 +120,6 @@ h4 {
   color: #c6d1d8;
   border-color: #c6d1d8;
 }
-
-
 
 @-webkit-keyframes fadeIn {
   from {
