@@ -28,7 +28,21 @@
         </div>
       </div>
     </nav>
-    
+
+    <br />
+
+    <!-- <input
+      type="text"
+      name="txtSearch"
+      id="txtSearch"
+      placeholder="Search for a recipe!"
+      required
+    /> -->
+
+    <!-- <button class="btn btn-success btn-lg" onclick="findRecipe()">
+      Find Recipe
+    </button> -->
+
     <form id="form">
       <div class="form-group">
         <input type="text" class="form-control" id="search" />
@@ -42,7 +56,50 @@
         />
       </div>
     </form>
+    
+    <br />
 
+    <div class="row">
+      <div class="card" style="display: inline-block">
+        <img src="card1-image.jpg" alt="Card 1" />
+        <div class="card-section">
+          <h4>Card 1 Title</h4>
+          <div id="videos"></div>
+        </div>
+      </div>
+      <div class="card" style="display: inline-block">
+        <img src="card2-image.jpg" alt="Card 2" />
+        <div class="card-section">
+          <h4>Card 2 Title</h4>
+          <div class="row" id="results-div"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="grid">
+      <div class="grid-item">
+        <div class="card">
+          <img class="card-img" alt="Rome" />
+          <div class="card-content">
+            <h1 class="card-header">YouTube</h1>
+            <div>
+              <div id="videos"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid-item">
+        <div class="card">
+          <img class="card-img" alt="Grand Canyon" />
+          <div class="card-content">
+            <h1 class="card-header">Recipes</h1>
+            <div class="container-fluid">
+              <div class="row" id="results-div"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
 
   </nav>
   
@@ -52,16 +109,21 @@
     <div>
       <ul id="search-history"></ul>
     </div>
+
     <div class="row">
-      <div>
+      <!-- <div>
         <div id="videos"></div>
-      </div>
+      </div> -->
     </div>
+
+
+    <!-- <div class="container-fluid">
 
 
     <div class="container-fluid">
+
       <div class="row" id="results-div"></div>
-    </div>
+    </div> -->
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="js/vendor/jquery.js"></script>
