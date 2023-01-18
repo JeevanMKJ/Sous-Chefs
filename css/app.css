@@ -28,7 +28,6 @@
   font-size: 15px;
   cursor: pointer;
   margin-bottom: 30px;
-
 }
 
 .card-search-results {
@@ -70,7 +69,7 @@
   padding: 14px;
   font-size: 22px;
   cursor: pointer;
-  float: left
+  float: left;
 }
 
 .recipe-card {
@@ -93,7 +92,6 @@ h4 {
 
 #search-history {
   list-style: none;
-
 }
 
 .topbar-responsive .menu li:last-of-type {
@@ -139,6 +137,7 @@ h4 {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  width: 80%;
 }
 
 .topbar-responsive .menu .topbar-responsive-button {
